@@ -1,0 +1,132 @@
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #header img {
+    max-height: 80px;
+    max-width: 80px;
+    left: 5%;
+  }
+  
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+  background-color: #2c2b30; /*Deze heeft als functie om de background image te kunnen adden*/
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-position: fixed;
+  height: 100%;
+  overflow-x: hidden; /* zodat de page niet van links naar rechts kan schuiven */
+  overflow-y: scroll; /* zodat de page kan scrollen*/
+  padding-bottom: 100px;
+  }
+
+
+.scrollable-content{  /* zodat de page kan scrollen*/
+  height: 500px;
+  overflow-y: scroll;
+}
+
+
+  ul{
+    position:absolute;
+    right: 50px;
+    top: 18px;
+    transform:none;
+  }
+  
+  
+  ul li{
+    display:inline-block;
+    padding:8px 12px;
+    font-size: 22px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position:relative;
+    
+  }
+
+  
+  ul li a{
+    text-decoration:none;
+    color: white;
+    font: weight 600px;
+  }
+
+  .title{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+ .container{
+  max-width: 1200px;
+  margin: auto;
+  background: wheat;
+  overflow: auto;
+ }
+
+ .gallery{
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+ }
+
+ .gallery img{
+  width: 100%;
+  height: auto;
+ }
+
+ .desc{
+  padding: 15px;
+  text-align: center;
+ }
+
+ footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: auto;
+  font-size: 14px;
+}
+
+.names {
+  font-size: 15px;
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.rights {
+  color: green;
+  font-size: 20px;
+}
+
+.social-media img {
+  width: 30px;
+  margin-left: 10px;
+}

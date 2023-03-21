@@ -1,0 +1,165 @@
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #header img {
+    max-height: 80px;
+    max-width: 80px;
+    left: 5%;
+  }
+  
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+  background-image: url(images/inosuke.png); /*Deze heeft als functie om de background image te kunnen adden*/
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden; /* zodat de page niet van links naar rechts kan schuiven */
+  overflow-y: scroll; /* zodat de page kan scrollen*/
+  padding-bottom: 100px;
+  }
+
+
+.scrollable-content{  /* zodat de page kan scrollen*/
+  height: 500px;
+  overflow-y: scroll;
+}
+
+
+  ul{
+    position:absolute;
+    right: 50px;
+    top: 18px;
+    transform:none;
+  }
+  
+  
+  ul li{
+    display:inline-block;
+    padding:8px 12px;
+    font-size: 22px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    position:relative;
+    
+  }
+
+  
+  ul li a{
+    text-decoration:none;
+    color: white;
+    font: weight 600px;
+  }
+ 
+.profiel{
+    padding: inherit;
+    position: relative;
+    height: 250px;
+    width: auto;
+    margin-left: 58%;
+    margin-top: 5%;
+    border: 3px solid red;
+}
+
+
+
+.Welcome {
+  color: green;
+  position: absolute;
+  top: 15%;
+  right: 66%;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  
+  
+.adithya pre{
+  position: absolute;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  font-size: 23px;
+  top: 28%;
+  left: 10px;
+
+}
+
+.profile{
+  padding: inherit;
+    position: relative;
+    height: 250px;
+    width: auto;
+    margin-left: 58%;
+    margin-top: 5%;
+    border: 3px solid red;
+}
+
+.jozhua pre{
+  position: absolute;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 21px;
+  color: aliceblue;
+  top: 75%;
+  left: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 50px;
+  height: 100px;
+}
+
+.names {
+  font-size: 15px;
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.rights {
+  color: green;
+  font-size: 20px;
+}
+
+.social-media img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+  
